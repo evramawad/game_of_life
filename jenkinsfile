@@ -2,9 +2,6 @@ node{
         stage ('SCM Checkout'){
           git 'https://github.com/evramawad/game_of_life'
         }
-        stage ('Compile Stage') {
-                withMaven(maven : 'maven')
-                    sh "mvn clean package"
-        }
+
 
 }
