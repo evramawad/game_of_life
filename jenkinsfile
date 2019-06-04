@@ -5,7 +5,7 @@ node{
           
         stage ('Compile Stage') {
                 withMaven(maven : 'maven')
-                    sh 'mvn clean package'
+                    sh "mvn clean package"
         }
 
         stage ('Deployment Stage') {
