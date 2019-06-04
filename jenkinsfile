@@ -1,6 +1,6 @@
 node{
         stage ('SCM Checkout'){
-          git 'https://github.com/evramawad/game_of_life.git'
+          git 'https://github.com/evramawad/game_of_life'
         }
           
 }
